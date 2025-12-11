@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background-image: url(./src/imgs/fondo.jpg);
+    color: white;
+}
+
+section {
+    width: 500px;
+    background-color: transparent;
+    margin: auto;
+}
+
+
+nav li {
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 0 10px;
+    padding: 8px 12px;
+    animation: 0.3s;
+    /* espacio horizontal entre cada <li> */
+    /* espacio interno para que el texto no quede pegado */
+}
+
+nav li a {
+    text-decoration: none;   /* quita el subrayado */
+    color: #000000;             /* gris oscuro, elegante */
+    font-weight: 500;        /* un poco más marcado */
+    padding: 6px 10px;       /* aire alrededor del texto */
+    transition: color 0.3s;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+li {
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+
+#tareas {
+    border: solid;
+    width: 50%;;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #3d5153;
+    font-size: 15px;
+}
+
+button {
+    text-decoration: none;   /* quita el subrayado */
+    color: #000000;             /* gris oscuro, elegante */
+    font-weight: 500;        /* un poco más marcado */
+    padding: 6px 10px;       /* aire alrededor del texto */
+    transition: color 0.3s;
+}
+
+
+
+
+
+input, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+div {
+    margin-bottom: 20px;
+  
+}
+
+img {
+    border-radius: 15px;
+    margin-top: auto;
+    border-top: 50px;
+    width: 300px;
+}
+

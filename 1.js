@@ -1,10 +1,15 @@
 require('dotenv').config();
 
+
+
 const express = require("express");
-const app = express();
+
+
+const app = express('path');
+
 
 app.get('/', (req, res) => {
-    res.send("Hola mundo perras caras de mondonguini")
+    res.send('hola mundo desde el server hijos de PERRA')
 });
 
 const PORT =  process.env.PORT || 3001;

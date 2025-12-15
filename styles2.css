@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+    background-image: url(./src/imgs/fondo.avif);
+}
+
+
+
+nav li {
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    margin: 0 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+    /* espacio horizontal entre cada <li> */
+    /* espacio interno para que el texto no quede pegado */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+nav li:hover {
+    transition: all 0.3s ease;
+    background-color: rgb(102, 60, 102);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+
+.botonera {
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    transition: all 0.5s ease;
+    background-color: rgb(199, 22, 22);
+}
+
+section {
+    color: rgb(90%, 50%, 50%);
+   
+    
+}
+
+
+
+
+nav li a {
+     
+    text-decoration: none;   /* quita el subrayado */
+    color: #000000;             /* gris oscuro, elegante */
+    font-weight: 500;        /* un poco más marcado */
+    padding: 6px 10px;       /* aire alrededor del texto */
+    transition: color 0.3s;
+}
+
+
+nav ul {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+  
+}

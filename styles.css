@@ -1,19 +1,33 @@
+* {
+    
+}
+
 body {
     text-align: center;
-    background-image: url(./src/imgs/fondo.jpg);
+    background-image: url(./src/imgs/fondo.avif);
     color: white;
+    font-family: cursive;
 }
 
 section {
     width: 500px;
-    background-color: transparent;
     margin: auto;
+    background-color: transparent;
+}
+
+fieldset {
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: solid;
+
 }
 
 
+
+
 nav li {
-    background-color: #ffffff;
-    border-radius: 5px;
+    border: none;
     margin: 0 10px;
     padding: 8px 12px;
     animation: 0.3s;
@@ -22,6 +36,7 @@ nav li {
 }
 
 nav li a {
+     
     text-decoration: none;   /* quita el subrayado */
     color: #000000;             /* gris oscuro, elegante */
     font-weight: 500;        /* un poco más marcado */
@@ -35,14 +50,13 @@ nav ul {
     justify-content: center;
     gap: 20px;
     list-style: none;
-    padding: 0;
-    margin: 0;
+  
 }
 
 
 
-li {
-    gap: 10px;
+ul :first-child{
+    background-color: rgb(206, 171, 206);
     justify-content: center;
     display: flex;
 }
@@ -82,9 +96,10 @@ div {
 }
 
 img {
+    filter: grayscale(100%);
+    padding: 10px;
     border-radius: 15px;
-    margin-top: auto;
-    border-top: 50px;
     width: 300px;
+    opacity: 0.75;
 }
 
